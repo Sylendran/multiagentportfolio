@@ -37,6 +37,25 @@ nav ul li a:hover {
     color: ##6227ff;
 }
 
+
+#about {
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between image and text */
+}
+
+.about-container img {
+    border-radius: 50%; /* Makes the image round, optional */
+}
+
+.about-text {
+    flex: 1; /* Allow the text to take up remaining space */
+}
+
 #hero {
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: #fff;

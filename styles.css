@@ -133,3 +133,50 @@ footer {
     background: #003366;
     color: #fff;
 }
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#contact form {
+    max-width: 600px; /* Set a max-width for the form */
+    margin: 0 auto; /* Center the form */
+    display: flex;
+    flex-direction: column; /* Stack form fields vertically */
+}
+
+#contact form label {
+    margin-bottom: 5px;
+    font-weight: bold; /* Optional: Makes labels bold */
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+#contact form textarea {
+    height: 150px; /* Set a height for the textarea */
+}
+
+#contact form button {
+    width: 100%; /* Full width for the button */
+    padding: 10px 0;
+    background-color: #6227ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact form button:hover {
+    background-color: #e65c00; /* Change button color on hover */
+}

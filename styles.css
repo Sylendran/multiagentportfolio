@@ -56,24 +56,51 @@ nav ul li a:hover {
     flex: 1; /* Allow the text to take up remaining space */
 }
 
+/* Hero Section Styling */
 #hero {
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: #101b15;
     padding: 100px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    position: relative;
 }
 
+.hero-card {
+    background-color: #fff; /* White card background */
+    padding: 30px 20px; /* Padding inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+    max-width: 500px; /* Max width for the card */
+    text-align: center; /* Center the text */
+}
+
+.hero-card h2 {
+    margin-top: 0; /* Remove default margin from top */
+    color: #003366; /* Optional: Change color of the text inside the card */
+}
+
+.hero-card p {
+    color: #333; /* Optional: Change color of the paragraph */
+}
+
+/* CTA Button */
 .cta-button {
-    background: ##6227ff;
+    background: #6227ff; /* Button color */
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s;
+    display: inline-block;
+    margin-top: 15px; /* Add margin above the button */
 }
 
 .cta-button:hover {
-    background: #e65c00;
+    background: #e65c00; /* Hover effect */
 }
 
 section {

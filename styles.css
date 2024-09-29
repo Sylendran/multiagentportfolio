@@ -56,6 +56,7 @@ nav ul li a:hover {
     flex: 1; /* Allow the text to take up remaining space */
 }
 
+/* Hero Section Styling */
 #hero {
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: #101b15;
@@ -64,14 +65,13 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    height: 400px; /* Manually set hero section height */
     position: relative;
 }
 
+/* Hero Card Styling */
 .hero-card {
-    background-color: #c9c1ff; /* Opaque card background */
-    /* Alternatively, for slight transparency, use rgba: */
-    /* background-color: rgba(201, 193, 255, 0.9); */
+    background-color: #ffffff; /* Solid white background for the card */
     padding: 30px 20px; /* Padding inside the card */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
@@ -79,6 +79,7 @@ nav ul li a:hover {
     text-align: center; /* Center the text */
 }
 
+/* Text Styling for Hero Card */
 .hero-card h2 {
     margin-top: 0; /* Remove default margin from top */
     color: #003366; /* Optional: Change color of the text inside the card */

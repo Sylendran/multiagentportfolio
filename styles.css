@@ -67,4 +67,75 @@ h2 {
 }
 
 .experience-card, .project-card {
-    background: #fff
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.experience-card:hover, .project-card:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #003366;
+    color: #fff;
+}
+
+/* Add styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Ensure project card images fit within container */
+.project-card img {
+    width: 100%;
+    max-width: 400px; /* Limit the size of project images */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover; /* Ensures the image doesn't stretch */
+}
+
+/* Ensure about section image size */
+#about img {
+    width: 100%;
+    max-width: 250px; /* Adjust profile image size */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Form styling */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #003366;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #FF6600;
+}
